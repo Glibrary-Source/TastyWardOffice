@@ -36,10 +36,6 @@ class restaurant_list : Fragment() {
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
         binding.photosGrid.adapter = PhotoGridAdapter()
-        binding.run {
-
-        }
-
 
         return binding.root
     }
